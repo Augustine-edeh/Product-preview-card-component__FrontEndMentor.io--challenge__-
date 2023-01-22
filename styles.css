@@ -1,0 +1,125 @@
+/* || IMPORTING REQUIRED FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+/* 
+TODO:
+
+1. FIXME: Desktop view Design
+2. FIXME: Mobile view Design ( View the optimal layout depending on their device's screen size)
+3. FIXME: See hover and focus states for interactive elements
+*/
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+/* || RESET (REMOVING DEFAULT STYLES) */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  /* font-family: "Montserrat"; */
+  /* font-family: "Montserrat", sans-serif; */
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  /* text-align: center; */
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  /* color: ; */
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 22rem;
+  /* height: 37rem; */
+
+  border-radius: 1rem;
+  /* padding-bottom: 1rem; */
+  /* margin: auto; */
+}
+.font-fraunces {
+  font-family: "Fraunces", serif;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.container.img {
+}
+img {
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.container-text {
+  /* margin-bottom: 0.5rem; */
+  padding: 0 1rem 0 1rem;
+}
+.text {
+  margin-top: 1rem;
+}
+.text.faded.header {
+  /* color: red; */
+  /* color: hsl(228, 12%, 48%); */
+  /* opacity: 1; */
+  letter-spacing: 0.3rem;
+}
+.text.bold {
+  color: hsl(212, 21%, 14%);
+  font-size: 2.1rem;
+  margin-top: 0.7rem;
+  /* color: red; */
+}
+.text.faded {
+  color: hsl(228, 12%, 48%);
+  /* color: red; */
+  /* opacity: 0.5; */
+}
+.text.product-details {
+  line-height: 1.65rem;
+}
+.text.current-price {
+  /* background-color: grey; */
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+  /* padding: 0.5rem; */
+  margin: 1.5rem 0 0 0;
+  display: flex;
+  /* justify-content: ; */
+  /* align-items: right; */
+}
+.text.old-price {
+  /* background-color: red; */
+  /* color: #000; */
+  color: hsl(228, 12%, 48%);
+  /* font-size: 1rem; */
+  /* font-weight: ; */
+  /* height: 2rem; */
+  margin: auto 0 auto 1.5rem;
+  /* opacity: 0.6; */
+  /* height: 20rem; */
+}
+button {
+  display: block;
+  margin: 1rem auto 2rem auto;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  color: #fff;
+  width: 95%;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: hsl(158, 36%, 37%);
+}
+button:hover {
+  background-color: hsl(158, 37%, 19%);
+  cursor: pointer;
+}
+.cart-img {
+  margin-right: 1rem;
+}
+footer {
+  padding-top: 1.1rem;
+}
+/* 
+Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+ */
