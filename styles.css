@@ -70,7 +70,7 @@ main {
   margin: 1.5rem 0 0 0;
   display: flex;
 }
-.text.old-price {
+.old-price {
   color: hsl(228, 12%, 48%);
   margin: auto 0 auto 1.5rem;
 }
@@ -93,7 +93,7 @@ button:hover {
   margin-right: 1rem;
 }
 footer {
-  padding-top: 1.1rem;
+  padding-top: 2rem;
 }
 .attribution {
   font-size: 11px;
@@ -101,4 +101,36 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* || STYLES FOR DESKTOP VIEW  */
+@media (min-width: 1000px) {
+  main {
+    display: flex;
+    width: 41.5rem;
+    /* height: 28rem; */
+  }
+  .container.img {
+    background-image: url(./images/image-product-desktop.jpg);
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+    width: 50%;
+  }
+  .container-text {
+    width: 50%;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+  .text.header {
+    margin-top: 2.5rem !important;
+  }
+  .text.text.bold {
+    /* color: red; */
+    /* margin-top: 1rem; */
+  }
+  .text {
+    margin-top: 1.5rem !important;
+  }
+  button {
+    margin: 2rem auto 0.8rem auto;
+  }
 }
