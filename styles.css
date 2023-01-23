@@ -36,7 +36,7 @@ main {
 .container.img {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
-  background-color: red;
+  background-color: #cccccc;
   background-image: url("./images/image-product-mobile.jpg");
   height: 14.5rem;
   background-position: center;
@@ -103,7 +103,7 @@ footer {
 }
 
 /* || STYLES FOR DESKTOP VIEW  */
-@media (min-width: 1000px) {
+@media (min-width: 376px) {
   main {
     display: flex;
     width: 41.5rem;
