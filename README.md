@@ -46,7 +46,7 @@ Users should be able to:
 ### **Links**
 
 - Solution URL: [Go to gitHub solution Repository](https://github.com/Augustine-edeh/QR-code-component--FrontEndMentor.io-challenge--)
-- Live Site URL: [View live site](https://augustine-edeh.github.io/QR-code-component--FrontEndMentor.io-challenge--/)
+- Live Site URL: [View live site](https://augustine-edeh.github.io/Product-preview-card-component__FrontEndMentor.io-challenge__/)
 
 ## **My process**
 
