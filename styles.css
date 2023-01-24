@@ -84,6 +84,7 @@ button {
   border-radius: 0.6rem;
   background-color: hsl(158, 36%, 37%);
 }
+button:focus,
 button:hover {
   background-color: hsl(158, 37%, 19%);
   cursor: pointer;
@@ -103,13 +104,13 @@ footer {
 }
 
 /* || STYLES FOR DESKTOP VIEW  */
-@media (min-width: 376px) {
+@media (min-width: 1000px) {
   main {
     display: flex;
     width: 41.5rem;
   }
   .container.img {
-    background-image: url(./images/image-product-desktop.jpg);
+    background-image: url("./images/image-product-desktop.jpg");
     height: 100%;
     border-radius: 1rem 0 0 1rem;
     width: 50%;
