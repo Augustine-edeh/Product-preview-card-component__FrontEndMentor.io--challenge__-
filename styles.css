@@ -43,6 +43,9 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.img-header {
+  display: none;
+}
 .container-text {
   padding: 0 1rem 0 1rem;
 }
